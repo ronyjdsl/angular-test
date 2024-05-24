@@ -1,0 +1,9 @@
+<div *ngIf="user">
+    <h1>User Profile</h1>
+    <strong>ID:</strong> {{ user.id }}
+    <strong>Name:</strong> {{ user.name }}
+</div>
+
+<div *ngIf="!user">
+    <p>Loading user data...</p>
+</div>
